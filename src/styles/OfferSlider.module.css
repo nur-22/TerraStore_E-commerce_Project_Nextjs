@@ -1,0 +1,42 @@
+.offerSlider {
+    position: relative;
+  }
+  
+  .offerCard {
+    width: 100%;
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .offerImage {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+  }
+  
+  .offerDescription {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .arrowButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #025223;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .arrowButton:hover {
+    background-color: #05682e;
+  }
+  
